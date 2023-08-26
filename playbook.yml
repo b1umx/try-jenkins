@@ -1,4 +1,5 @@
 - name: "Test playbook run"
+  hosts: "device"
   tasks:
     - name: "Debug"
       ansible.builtin.debug:
